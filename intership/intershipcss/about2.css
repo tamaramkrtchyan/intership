@@ -31,6 +31,9 @@ li {
 	color: #526DB4;
 	text-align: center;
 }
+.second-li {
+	margin-left: 30%;
+}
 .university {
 	font-family: 'Poppins';
 	font-style: normal;
@@ -72,7 +75,6 @@ footer {
 	font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 24px;
 	line-height: 36px;
 	display: flex;
 	align-items: center;
@@ -83,7 +85,7 @@ footer {
 	margin-right: 20px;
 	margin-top: 0;
 }
-.footer_logo_img {
+.footer_logo {
 	margin-top: 41px;
 }
 .links_a {
@@ -122,11 +124,14 @@ footer {
 	text-align: center;
 	margin-top: 84px;
 }
+.first_list {
+	display: flex;
+}
 .footer_list {
 	display: flex;
 }
 .footer-link {
-	margin-left: 50%;
+	margin-left: 75%;
 	margin-top: 35px;
 }
 
@@ -148,7 +153,7 @@ footer {
 		font-size: 10px;
 	}
 	.footer-link {
-		font-size: 16px;
+		font-size: 8px;
 	}
 }
 @media (max-width: 548px) {
@@ -166,7 +171,7 @@ footer {
 }
 @media (max-width: 479px) {
 	.footer-link {
-		font-size: 10px;
+		font-size: 8px;
 	}
 }
 @media (max-width: 403px) {
@@ -181,6 +186,9 @@ footer {
 	.footer-link {
 		margin-left: 40%;
 		font-size: 7px;
+	}
+	.last-icon {
+		width: 20%;
 	}
 }
 @media (max-width: 325px) {
@@ -199,6 +207,5 @@ footer {
 @media (max-width: 343px) {
 	.footer_link {
 		font-size: 7px;
-		margin-right: -22px;
 	}
 }
